@@ -10,7 +10,7 @@ public class Question1ii {
 	 public static void main(String[] args) {
 		
 		System.out.println("          ");
-	 	System.out.println("rectangles");
+	 	System.out.println("rectangles are not squares ");
 		System.out.println("          ");
 		
 		
@@ -24,7 +24,7 @@ public class Question1ii {
         length = in.nextDouble();
 
 		System.out.println("");
-		System.out.println("How large is your rectangle (width) ? ");
+		System.out.println("How large is your rectangle in (width) ? ");
         width = in.nextDouble();
         perimeter = (2 * length + 2 * width);
 	 	area = (length * width);
