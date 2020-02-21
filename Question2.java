@@ -8,21 +8,24 @@ public class Question2{
 	
     public static void main(String[] args) {
         System.out.println("what is your Bmi? ");		
-		double kg;
+	double kg;
         double meters;
        
 
 		
 
         Scanner in = new Scanner(System.in);
-        System.out.println("How heavy are you ?");
+        System.out.println("How heavy are you in kg ?");
         kg = in.nextDouble();
-        System.out.println("You entered string " + kg);
-
+        System.out.println("You entered " + kg);
+	
+	System.out.println("");
         System.out.println("what is your height in meters ?");
         meters = in.nextDouble();
-		double square = Math.pow(meters, 2);
+	double square = Math.pow(meters, 2);
+	System.out.println("");    
         System.out.println("your Bmi should be " + kg / square);
+	System.out.println("");    
 
 
 	}
