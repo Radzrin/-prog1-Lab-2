@@ -21,7 +21,7 @@ public class Question1 {
         System.out.println("How many meters need to be converted?");
         distanceInMeters = in.nextDouble();
 		distanceInFeet = factor * distanceInMeters;
-		System.out.println("\n" + distanceInFeet + "feet.");
+		System.out.println("\n" + distanceInFeet + " feet.");
        	 	
 	 	
 	 }
