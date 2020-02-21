@@ -8,7 +8,7 @@ public class Question1i {
 
 	public static void main(String[] args) {
 		System.out.println("");
-		System.out.println("Remember that age is just a  number ");
+		System.out.println("Remember that age is nothing more than a  number ");
 		System.out.println("");
 
 		int currentYear;
